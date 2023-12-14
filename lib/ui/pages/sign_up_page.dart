@@ -27,7 +27,7 @@ class _SignUpPageState extends State<SignUpPage> {
   Widget build(BuildContext context) {
     context.read<ThemeBloc>().add(ChangeTheme(ThemeData.from(
             colorScheme: ColorScheme.fromSwatch(
-          primarySwatch: Colors.grey,
+          primarySwatch: Colors.yellow,
         ))));
     return WillPopScope(
       onWillPop: () async {
